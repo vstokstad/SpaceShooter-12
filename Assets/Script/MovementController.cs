@@ -4,13 +4,13 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class MovementController : MonoBehaviour
 {
-    [NonSerialized] public Vector2 _movementInput;
     [SerializeField] private float _maxSpeed = 10f;
     [SerializeField] private float _acceleration = 20f;
-    
-    private Vector2 _currentSpeed = new Vector2(0f, 0f);
 
-    private Rigidbody2D _body;
+    [NonSerialized] public Rigidbody2D _body;
+
+    private Vector2 _currentSpeed = new Vector2(0f, 0f);
+    [NonSerialized] public Vector2 _movementInput;
 
     private void Awake()
     {
@@ -29,13 +29,11 @@ public class MovementController : MonoBehaviour
         float desiredHorizontalSpeed = _movementInput.x * _maxSpeed;
         _currentSpeed.x =
             Mathf.MoveTowards(_currentSpeed.x, desiredHorizontalSpeed, _acceleration * Time.fixedDeltaTime);
-      
     }
 
     private void moveVertical()
     {
         float desiredVerticalSpeed = _movementInput.y * _maxSpeed;
         _currentSpeed.y = Mathf.MoveTowards(_currentSpeed.y, desiredVerticalSpeed, _acceleration * Time.fixedDeltaTime);
-       
     }
 }

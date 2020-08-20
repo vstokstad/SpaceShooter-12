@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using static PlayerData;
 
+[RequireComponent(typeof(MovementController))]
 public class PlayerInput : MonoBehaviour
 {
     private MovementController _movement;
     private CannonController _cannon;
+
     private void Awake()
     {
         _movement = GetComponent<MovementController>();
         _cannon = GetComponentInChildren<CannonController>();
         _currentWeapon = _cannon;
     }
-   
+
 
     private void Update()
     {
@@ -24,6 +23,5 @@ public class PlayerInput : MonoBehaviour
         {
             _cannon.Shoot();
         }
-
     }
 }

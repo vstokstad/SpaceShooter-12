@@ -69,6 +69,7 @@ MonoBehaviour:
   _hitPoints: 1
   _movementSpeed: 3
   _enemyCollisionDamage: 1
+  _explosion: {fileID: 19800002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
 --- !u!1 &5560039045451457979
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +143,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cefef4789fd85404da239be67a7fca34, type: 3}
-  m_Color: {r: 0.22467236, g: 0.6509434, b: 0.12588999, a: 1}
+  m_Color: {r: 0.6509804, g: 0.24515498, b: 0.12549019, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
