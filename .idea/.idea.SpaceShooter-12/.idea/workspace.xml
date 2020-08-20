@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fb4f5dd-b3ff-4ca4-b350-2a96eb860596" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Beam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Beam.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Big Projectile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Big Projectile.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/BigFlare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/BigFlare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Burst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Burst.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/DustSpray (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/DustSpray (1).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/DustSpray (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/DustSpray (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Exhaust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Exhaust.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Explosion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Flare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Flare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/IonTrail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/IonTrail.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Beam.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Beam.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Exhaust.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Exhaust.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Explosion.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Explosion.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Flare Animorphic.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Flare Animorphic.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Flare.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Flare.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Ion Trail.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Ion Trail.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Smoke Trail 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Smoke Trail 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Smoke Trail 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Materials/Smoke Trail 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Note on Flares.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Note on Flares.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Projectile Sharp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Projectile Sharp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Projectile Thin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Projectile Thin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Shield Bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Shield Bubble.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Small Flare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Small Flare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Smoke 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Smoke 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Smoke 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Smoke 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Smoke 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Smoke 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/SmokeTrail1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/SmokeTrail1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/SmokeTrail2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/SmokeTrail2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Starflare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Particles (Sprites)/Starflare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Prefabs/Muzzle Flash.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Prefabs/Muzzle Flash.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/AimBeam.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/AimBeam.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/Crosshair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/Crosshair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/CustomPointer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/CustomPointer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/ExampleShipControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/ExampleShipControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/PSDestroy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/PSDestroy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/ParallaxLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/ParallaxLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/PlayerControlledTurret.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/PlayerControlledTurret.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/Projectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/Projectile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/ShipCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/ShipCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/WARNING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/2D Space Kit/Scripts/WARNING.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/DinV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/DinV/Dynamic Space Background.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/DinV/Dynamic Space Background/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/DinV/Dynamic Space Background/Sprites/Nebula Aqua-Pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/DinV/Dynamic Space Background/Sprites/Nebula Aqua-Pink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/CannonBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/CannonBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/Enemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/Enemy1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/EnemyShip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/EnemyShip.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Script/MovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gMm7AzIekjNC9hfk1IrKZDINwQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fb4f5dd-b3ff-4ca4-b350-2a96eb860596" name="Default Changelist" comment="" />
+      <created>1597932669821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597932669821</updated>
+      <workItem from="1597932676135" duration="3266000" />
+      <workItem from="1597947971644" duration="5857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="210" key="SettingsEditor" timestamp="1597948504009">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1597948504009" />
+  </component>
+</project>
