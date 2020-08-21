@@ -3,12 +3,12 @@ using UnityEngine;
 
 public  class PlayerData : MonoBehaviour
 {
-    public float _hitPoints = 10f;
-    public float _damageModifier = 1f;
-    public Weapon _currentWeapon;
-    public float _killPoints = 0f;
-    public Color _playerColor;
-  private PlayerUI _playerUI;
+    [NonSerialized] public float _hitPoints = 10f;
+    [NonSerialized] public float _damageModifier = 1f;
+    [NonSerialized] public Weapon _currentWeapon;
+    [NonSerialized] public float _killPoints = 0f;
+    [NonSerialized] public Color _playerColor;
+    private PlayerUI _playerUI;
 
     public static PlayerData Instance { get; private set; }
     
@@ -39,5 +39,4 @@ public  class PlayerData : MonoBehaviour
         _playerUI.SetHitPointsUI(_hitPoints);
         
     }
-
 }
