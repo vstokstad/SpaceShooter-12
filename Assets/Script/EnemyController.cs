@@ -44,19 +44,16 @@ public class EnemyController : MonoBehaviour
         if (_hitPoints <= 0f)
         {
             Explode();
-           PlayerData.Instance.UpdateScore(1);
+            // PlayerData.Instance.UpdateScore(1);
         }
     }
 
     private void Explode()
     {
-       
-        GetComponentInChildren<SpriteRenderer>().enabled = false;
+        GetComponentInChildren<Renderer>().enabled = false;
         _explosion.Play();
         Destroy(gameObject, _explosion.main.duration);
-        GetComponentInChildren<BoxCollider2D>().enabled = false;
+        GetComponentInChildren<Collider2D>().enabled = false;
         this.enabled = false;
-   
-       
     }
 }

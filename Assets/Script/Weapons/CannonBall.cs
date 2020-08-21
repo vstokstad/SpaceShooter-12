@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CannonBall : MonoBehaviour
 {
-    private float _ballSpeed = 40f;
+    public float _ballSpeed = 40f;
     public float _damage = 1f;
 
     private void FixedUpdate()
