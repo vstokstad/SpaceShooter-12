@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3594471490958434420}
   - component: {fileID: -8428390538904314182}
   m_Layer: 0
-  m_Name: CannonBall
+  m_Name: ToonCannonBall
   m_TagString: CannonBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361429777760622939}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

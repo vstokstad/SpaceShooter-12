@@ -19,7 +19,82 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fb4f5dd-b3ff-4ca4-b350-2a96eb860596" name="Default Changelist" comment="" />
+    <list default="true" id="4fb4f5dd-b3ff-4ca4-b350-2a96eb860596" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/PreFab/EnemyShip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PreFab/EnemyShip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PreFab/EnemyShipTorus.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PreFab/EnemyShipTorus.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/M_Background.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/M_Background.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI_Rotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI_Rotation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Background.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffect/M_EnergyParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffect/M_EnergyParticle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/QuickGuide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/big-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/credits.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/eula.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/eula.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/Enemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/Enemy1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/PlayerUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/PlayerUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/PlayerUI.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/PlayerUI.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/ToonCannonBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/ToonCannonBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/ToonEnemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/ToonEnemy1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFab/ToonExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/ToonExplosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/M_EnemyToon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/M_EnemyToon.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +104,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C9FA79E-FE9E-479A-8CBE-7A6F99F673D3/fa/faa7e4d7/IBindable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C9FA79E-FE9E-479A-8CBE-7A6F99F673D3/5a/9d970374/IBinding.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/ScoreManager (8).cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI_Rotation.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,10 +115,11 @@
         <option value="$PROJECT_DIR$/Assets/Script/Weapons/CannonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI_Rotation.cs" />
       </list>
     </option>
   </component>
@@ -57,8 +130,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502036" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30017453" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,10 +141,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9806">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9806" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -102,6 +175,7 @@
       <workItem from="1598009841409" duration="719000" />
       <workItem from="1598011486079" duration="2752000" />
       <workItem from="1598017894949" duration="1892000" />
+      <workItem from="1598041108992" duration="2101000" />
     </task>
     <servers />
   </component>
@@ -130,21 +204,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="443" height="464" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597999447415" />
-    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1598010566577">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="401" key="GridCell.Tab.0.bottom" timestamp="1598045965411">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state width="1750" height="401" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1598045965411" />
     <state width="1877" height="375" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598010566577" />
-    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1598010566577">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="401" key="GridCell.Tab.0.center" timestamp="1598045965410">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state width="1750" height="401" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1598045965410" />
     <state width="1877" height="375" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598010566577" />
-    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1598010566577">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="401" key="GridCell.Tab.0.left" timestamp="1598045965410">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state width="1750" height="401" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1598045965410" />
     <state width="1877" height="375" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598010566577" />
-    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1598010566577">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="401" key="GridCell.Tab.0.right" timestamp="1598045965410">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state width="1750" height="401" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1598045965410" />
     <state width="1877" height="375" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598010566577" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1598010566577">
       <screen x="0" y="0" width="1920" height="1040" />
