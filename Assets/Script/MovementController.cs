@@ -8,13 +8,14 @@ public class MovementController : MonoBehaviour
     [SerializeField] private float _acceleration = 20f;
 
     [NonSerialized] public Rigidbody2D _body;
-
+private Color _playerColor;
     private Vector2 _currentSpeed = new Vector2(0f, 0f);
     [NonSerialized] public Vector2 _movementInput;
 
     private void Awake()
     {
         _body = GetComponent<Rigidbody2D>();
+        _playerColor = GetComponentInChildren<Color>();
     }
 
     private void FixedUpdate()

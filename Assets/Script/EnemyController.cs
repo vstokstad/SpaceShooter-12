@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     private void Awake()
     {
         _enemyBody = GetComponent<Rigidbody2D>();
+        _explosion = GetComponentInChildren<ParticleSystem>();
     }
 
     private void Start()
@@ -43,15 +44,19 @@ public class EnemyController : MonoBehaviour
         if (_hitPoints <= 0f)
         {
             Explode();
-            
+           PlayerData.Instance.UpdateScore(1);
         }
     }
 
     private void Explode()
     {
-        Instantiate(_explosion, _enemyBody.position, Quaternion.identity);
-        Destroy(gameObject, 0f);
-        _explosion.Stop();
+       
+        GetComponentInChildren<SpriteRenderer>().enabled = false;
+        _explosion.Play();
+        Destroy(gameObject, _explosion.main.duration);
+        GetComponentInChildren<BoxCollider2D>().enabled = false;
+        this.enabled = false;
+   
        
     }
 }

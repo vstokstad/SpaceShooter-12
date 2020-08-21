@@ -4,6 +4,7 @@ using static PlayerData;
 [RequireComponent(typeof(MovementController))]
 public class PlayerInput : MonoBehaviour
 {
+    
     private MovementController _movement;
     private CannonController _cannon;
 
@@ -11,7 +12,7 @@ public class PlayerInput : MonoBehaviour
     {
         _movement = GetComponent<MovementController>();
         _cannon = GetComponentInChildren<CannonController>();
-        _currentWeapon = _cannon;
+        PlayerData.Instance._currentWeapon = _cannon;
     }
 
 

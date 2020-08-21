@@ -28,14 +28,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C9FA79E-FE9E-479A-8CBE-7A6F99F673D3/fa/faa7e4d7/IBindable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C9FA79E-FE9E-479A-8CBE-7A6F99F673D3/5a/9d970374/IBinding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ScoreManager (8).cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/MovementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Weapons/CannonBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
       </list>
     </option>
@@ -47,19 +55,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12776">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12776" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -85,6 +95,8 @@
       <updated>1597932669821</updated>
       <workItem from="1597932676135" duration="3266000" />
       <workItem from="1597947971644" duration="6081000" />
+      <workItem from="1597994952659" duration="6442000" />
+      <workItem from="1598001463551" duration="2395000" />
     </task>
     <servers />
   </component>
@@ -109,9 +121,86 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="210" key="SettingsEditor" timestamp="1597948504009">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="443" height="464" key="DebuggerActiveHint" timestamp="1597999447415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="443" height="464" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597999447415" />
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1598003876746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876746" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1598003876745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876745" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1598003876746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876746" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1598003876746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876746" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1598003876746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876746" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1598003876746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876746" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1598003876746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598003876746" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1598002162476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598002162476" />
+    <state x="425" y="177" key="SettingsEditor" timestamp="1598001435631">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1597948504009" />
+    <state x="425" y="177" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598001435631" />
+    <state x="514" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597999287883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="514" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597999287883" />
   </component>
 </project>

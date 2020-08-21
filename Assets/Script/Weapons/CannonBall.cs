@@ -13,12 +13,9 @@ public class CannonBall : MonoBehaviour
         transform.position += Vector3.right * (_ballSpeed * Time.fixedDeltaTime);
     }
 
-    // private void OnCollisionEnter2D(Collision2D other)
-    // {
-    //     Destroy(gameObject);
-    // }
+  
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (!other.CompareTag("SpawnArea"))
         {

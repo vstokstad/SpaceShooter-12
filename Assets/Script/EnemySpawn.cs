@@ -38,7 +38,7 @@ public class EnemySpawn : MonoBehaviour
         Vector3 spawnPosition;
         spawnPosition.z = 0f;
         spawnPosition.y = Random.Range(_spawnArea.min.y, _spawnArea.max.y);
-        spawnPosition.x = Random.Range(_spawnArea.min.x, _spawnArea.max.x);
+        spawnPosition.x = _spawnArea.max.x;
         Instantiate(_enemyShip, spawnPosition, Quaternion.identity);
         _timer = _spawnInterval;
     }
