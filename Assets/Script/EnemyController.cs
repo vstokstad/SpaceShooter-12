@@ -44,7 +44,7 @@ public class EnemyController : MonoBehaviour
         if (_hitPoints <= 0f)
         {
             Explode();
-            // PlayerData.Instance.UpdateScore(1);
+           PlayerData.Instance.UpdateScore(1f);
         }
     }
 

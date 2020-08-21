@@ -1,21 +1,25 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MovementController : MonoBehaviour
 {
-    [SerializeField] private float _maxSpeed = 10f;
-    [SerializeField] private float _acceleration = 20f;
+    [SerializeField] private float _maxSpeed = 20f;
+    [SerializeField] private float _acceleration = 60f;
 
     [NonSerialized] public Rigidbody2D _body;
-    private Color _playerColor;
     private Vector2 _currentSpeed = new Vector2(0f, 0f);
     [NonSerialized] public Vector2 _movementInput;
+   // [NonSerialized] public Vector3 _currentPosition;
 
     private void Awake()
     {
         _body = GetComponent<Rigidbody2D>();
-        _playerColor = GetComponentInChildren<Color>();
+       
+     //   _currentPosition.x = gameObject.transform.position.x;
+     //   _currentPosition.y = gameObject.transform.position.y;
+     //   _currentPosition.z = 0f;
     }
 
     private void FixedUpdate()

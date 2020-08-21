@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using static PlayerData;
+﻿using System;
+using UnityEngine;
+
 
 [RequireComponent(typeof(MovementController))]
 public class PlayerInput : MonoBehaviour
@@ -12,9 +13,10 @@ public class PlayerInput : MonoBehaviour
     {
         _movement = GetComponent<MovementController>();
         _cannon = GetComponentInChildren<CannonController>();
-        PlayerData.Instance._currentWeapon = _cannon;
+        
     }
 
+   
 
     private void Update()
     {
