@@ -21,7 +21,6 @@ public class CannonController : Weapon
         {
             return;
         }
-
         Instantiate(_cannonBall, transform.position, transform.rotation);
         _shootTimer = _fireCoolDown;
     }
