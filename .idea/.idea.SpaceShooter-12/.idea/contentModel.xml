@@ -29,7 +29,11 @@
           <e p="PlayerCollision.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
-          <e p="PlayerUI.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="PlayerUI.cs" t="Include" />
+            <e p="UI_HealthBar.cs" t="Include" />
+            <e p="UI_Rotation.cs" t="Include" />
+          </e>
           <e p="Weapons" t="Include">
             <e p="CannonBall.cs" t="Include" />
             <e p="CannonController.cs" t="Include" />
@@ -39,7 +43,6 @@
         <e p="Shaders" t="Include">
           <e p="ToonTest.shader" t="Include" />
         </e>
-        <e p="UI_Rotation.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

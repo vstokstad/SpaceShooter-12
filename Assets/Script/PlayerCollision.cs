@@ -2,16 +2,18 @@
 
 public class PlayerCollision : MonoBehaviour
 {
-    PlayerData PlayerData = PlayerData.Instance;
+    private PlayerData _playerData;
     private void OnCollisionEnter2D(Collision2D other)
     {
+        _playerData = PlayerData.Instance;
         if (other.gameObject.CompareTag("EnemyShip"))
         {
-            PlayerData._hitPoints -= other.gameObject.GetComponent<EnemyController>()._enemyCollisionDamage;
-            if (PlayerData._hitPoints <= 0)
+            _playerData.UpdateHitpoints(other.gameObject.GetComponent<EnemyController>()._enemyCollisionDamage);
+            
+           other.gameObject.GetComponent<EnemyController>()._explosion.Play(true);
+            if (_playerData._hitPoints <= 0)
             {
                 
-                gameObject.GetComponentInChildren<SpriteRenderer>().color = new Color(255f, 0f, 0f, 0.5f);
             }
         }
     }

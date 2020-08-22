@@ -36,6 +36,11 @@ public class EnemyController : MonoBehaviour
             float damage = other.gameObject.GetComponent<CannonBall>()._damage;
             TakeDamage(damage);
         }
+        else if (other.CompareTag("EnemyShip"))
+        {
+            Vector2 enemyBodyVelocity = _enemyBody.velocity;
+            enemyBodyVelocity.x += Random.Range(0.1f, 1f);
+        }
     }
 
     private void TakeDamage(float damage)

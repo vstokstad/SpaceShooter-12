@@ -15,6 +15,6 @@ public class UI_Rotation : MonoBehaviour
     {
 
 //        _transformRotation.y 
-        _body.transform.Rotate(xAngle: 0f, yAngle: 10f, zAngle: 0f);
+        _body.transform.Rotate(xAngle: 0f, yAngle: 0f, zAngle: 10f);
     }
 }
