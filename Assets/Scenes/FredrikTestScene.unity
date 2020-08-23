@@ -156,7 +156,7 @@ Transform:
   m_GameObject: {fileID: 111857214}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.5355, y: 0, z: 0}
-  m_LocalScale: {x: 0.34999996, y: 0.34999996, z: 0.5}
+  m_LocalScale: {x: 0.34999996, y: 0.34999996, z: 0.35}
   m_Children: []
   m_Father: {fileID: 2131635309}
   m_RootOrder: 1
@@ -175,6 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cannonBall: {fileID: 361429777760622939, guid: 70c76062897754c7d9db029cc6d0f2fa, type: 3}
   _fireCoolDown: 0.3
+  _expansionSpeed: 2
+  _expansionMaxIncrease: 0.1
 --- !u!23 &111857217
 MeshRenderer:
   m_ObjectHideFlags: 0

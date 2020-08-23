@@ -132,7 +132,8 @@
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            
+            #include "UnityCG.cginc"
+
             float4 _OutlineColor;
             float _OutlineExtrusion;
             
@@ -151,9 +152,6 @@
             v2f vert(VertexInput input)
             {
                 v2f output;
-                
-                //output.pos = UnityObjectToClipPos(input.pos);
-                //output.normal = UnityObjectToWorldNormal(input.normal);
                 
                 float4 newPos = input.pos;
             
