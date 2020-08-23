@@ -7,21 +7,31 @@
         _Color("Color", Color) = (1, 1, 1, 1)
         _AmbientStrength("Ambient Lighting Strength", float) = 0.2
         _Glossiness("Glossiness", float) = 32
+        _OutlineExtrusion("Outline Extrusion", float) = 0.2
+        _OutlineColor("Outline Color", Color) = (0, 0, 0, 1)
     }
     SubShader
     {
-        // Regular color & Lighting pass
-        Tags { "LightMode" = "ForwardBase" }
-        LOD 100
-
         Pass
         {
+            // Regular color & Lighting pass
+            Tags { "LightMode" = "ForwardBase" }
+            LOD 100
+            
+            // For Outline pass
+            Stencil
+            {
+                Ref 4
+                Comp always
+                Pass replace
+                ZFail keep
+            }
+            
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #pragma multi_compile_fwdbase
-            // make fog work
-            #pragma multi_compile_fog
+            #pragma multi_compile_fwdbase // shadows
+            #pragma multi_compile_fog // make fog work
 
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
@@ -65,7 +75,7 @@
                 return output;
             }
 
-            float3 frag (v2f input) : SV_Target
+            float4 frag (v2f input) : SV_Target
             {
                 // sample the texture
                 float3 normal = normalize(input.normal); 
@@ -87,7 +97,7 @@
                 float3 halfVector = normalize(_WorldSpaceLightPos0 + viewDir);
                 float NdotH = dot(normal, halfVector);
                 float specularIntensity = pow(NdotH * lightIntensity, _Glossiness * _Glossiness);
-                float3 specular = smoothstep(0.005, 0.006, specularIntensity);
+                float3 specular = smoothstep(0.005, 0.005, specularIntensity);
                 
                 float3 lighting = ((diffuse + specular + _AmbientStrength) * _LightColor0.rgb);
 
@@ -103,6 +113,66 @@
             }
             ENDCG
         }
+        
+        // Outline pass
+        Pass
+        {
+            // Doesn't draw where it sees ref value 4Pass
+            Cull OFF
+            ZWrite OFF
+            ZTest ON
+            Stencil
+            {
+                Ref 4
+                Comp notequal
+                Fail keep
+                Pass replace
+            }
+            
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            
+            float4 _OutlineColor;
+            float _OutlineExtrusion;
+            
+            struct VertexInput
+            {
+                float4 pos : POSITION;
+                float3 normal : NORMAL;
+            };
+            
+            struct v2f
+            {
+                float4 pos : SV_POSITION;
+                float4 color : COLOR;
+            };
+            
+            v2f vert(VertexInput input)
+            {
+                v2f output;
+                
+                //output.pos = UnityObjectToClipPos(input.pos);
+                //output.normal = UnityObjectToWorldNormal(input.normal);
+                
+                float4 newPos = input.pos;
+            
+                float3 normal = normalize(input.normal);
+                newPos += float4(normal, 0.0f) * _OutlineExtrusion;
+                
+                output.pos = UnityObjectToClipPos(newPos);
+                
+                output.color = _OutlineColor;
+                return output;
+            }
+            
+            float4 frag(v2f input) : COLOR
+            {
+                return input.color;
+            }
+            ENDCG
+        }
+            
         // Shadow pass
         Pass
         {
