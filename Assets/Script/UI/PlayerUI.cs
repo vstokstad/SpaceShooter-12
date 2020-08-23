@@ -5,25 +5,39 @@ using UnityEngine;
 
 public class PlayerUI : MonoBehaviour
 {
-    public GameObject _hitPointBar;
+    public GameObject _healthBar;
 
-    public GameObject _killPoints;
-   
+    public GameObject _killCounter;
+    private Vector3 _killCountPos;
+
 
     private void Awake()
     {
-        
+       
+        _healthBar = GetComponentInChildren<GameObject>();
+        SetHealthBar(PlayerData.Instance._health);
+       
     }
 
-    public void SetKillPointUI()
+    public void SetKillCount()
     {
-        Vector3 killpointPos = _killPoints.transform.localPosition;
-        killpointPos.x += 1f;
-        killpointPos.y += 0f;
-        killpointPos.z += 0f;
-        Instantiate(_killPoints, killpointPos, Quaternion.identity);
-    }
-    
+        _killCountPos = new Vector3(-16f, -9, 0f);
+        Vector3 killpointPos = _killCountPos;
+        killpointPos.x += PlayerData.Instance._score + 0.5f;
 
-  
+        Instantiate(_killCounter, killpointPos, Quaternion.identity);
+        _killCounter.transform.SetPositionAndRotation(killpointPos,Quaternion.identity);
+        
+       
+    }
+
+    public void SetHealthBar(float currentHealth)
+    {
+        Vector3 health = _healthBar.transform.localScale;
+        health.y -= currentHealth;
+        _healthBar.transform.localScale = health;
+    }
+
+
+
 }

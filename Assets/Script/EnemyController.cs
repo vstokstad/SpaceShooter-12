@@ -40,7 +40,15 @@ public class EnemyController : MonoBehaviour
         else if (other.CompareTag("EnemyShip"))
         {
             Vector2 enemyBodyVelocity = _enemyBody.velocity;
-            enemyBodyVelocity.x += Random.Range(0.1f, 2f)*Time.time;
+            _enemyBody.velocity += enemyBodyVelocity * Random.Range(0.8f, 2f)*Time.time;
+        }
+        else if (other.CompareTag("EndZone"))
+        {
+            Destroy(gameObject, _explosion.main.duration);
+        }
+        else if (other.CompareTag("Player"))
+        {
+            TakeDamage(_enemyCollisionDamage);
         }
     }
 
@@ -50,7 +58,7 @@ public class EnemyController : MonoBehaviour
         if (_hitPoints <= 0f)
         {
             Explode();
-           PlayerData.Instance.UpdateScore(1f);
+           PlayerData.Instance.AddKill();
         }
     }
 

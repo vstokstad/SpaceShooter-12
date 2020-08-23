@@ -3,7 +3,6 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.gitignore_global" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="DownloadedAssets" t="Include">
@@ -31,7 +30,6 @@
           <e p="PlayerInput.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="PlayerUI.cs" t="Include" />
-            <e p="UI_HealthBar.cs" t="Include" />
             <e p="UI_Rotation.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">

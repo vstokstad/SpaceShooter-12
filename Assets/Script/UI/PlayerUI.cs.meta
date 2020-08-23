@@ -4,8 +4,8 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - _hitPointBar: {fileID: 1659610365908313921, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
-  - _killPoints: {fileID: 1659610365908313921, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
+  - _healthBar: {fileID: 7415023503975896838, guid: 5647f3a4ab16d4df09c148172c2bb61c, type: 3}
+  - _killPoints: {fileID: 3140829775293565501, guid: 6425f7a0e3dc3436eb0e8c64449e0f57, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
