@@ -40,7 +40,6 @@ public class CannonController : Weapon
 
         while (transform.localScale.x < expansionTarget.x)
         {
-            // transform.localScale = Vector3.MoveTowards(transform.localScale, expansionTarget, _expansionSpeed);
             transform.localScale += new Vector3(_expansionSpeed, _expansionSpeed, _expansionSpeed) * Time.deltaTime;
             yield return null;
         }
