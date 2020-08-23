@@ -31,7 +31,6 @@
           <e p="PlayerInput.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="PlayerUI.cs" t="Include" />
-            <e p="UI_HealthBar.cs" t="Include" />
             <e p="UI_Rotation.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">

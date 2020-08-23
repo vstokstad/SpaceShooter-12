@@ -8,6 +8,7 @@ TagManager:
   - SpawnArea
   - EnemyShip
   - Background
+  - EndZone
   layers:
   - Default
   - TransparentFX

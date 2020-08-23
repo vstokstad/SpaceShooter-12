@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 361429777760622939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4439889317502633568}
   m_Father: {fileID: 0}
@@ -114,8 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abd9fd4d34c404093397fb2770c13b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ballSpeed: 20
-  _damage: 1
+  _ballSpeed: 30
+  _damage: 0.8
 --- !u!50 &-8428390538904314182
 Rigidbody2D:
   serializedVersion: 4

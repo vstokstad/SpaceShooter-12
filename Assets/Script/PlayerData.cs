@@ -1,15 +1,16 @@
 ﻿using System;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerData : MonoBehaviour
 {
-    [NonSerialized] public float _hitPoints = 10f;
-    [NonSerialized] public float _damageModifier = 1f;
-    [NonSerialized] public Weapon _currentWeapon;
-    [NonSerialized] public float _killPoints = 0f;
+    [NonSerialized] public float _health = 2f;
+   // [NonSerialized] public float _damageModifier = 1f;
+   // [NonSerialized] public Weapon _currentWeapon;
+    [NonSerialized] public float _score = 0f;
 
     public PlayerUI _playerUI;
-    public Vector3 _healtBar;
+   
 
 
     public static PlayerData Instance { get; private set; }
@@ -25,24 +26,22 @@ public class PlayerData : MonoBehaviour
             Instance = this;
         }
 
-        _playerUI = GetComponent<PlayerUI>();
-        _healtBar = GetComponent<Transform>().localScale;
-        _healtBar.x = 1f;
-        _healtBar.y = 2f;
-        _healtBar.z = 1f;
+     
+
     }
 
-    public void UpdateScore(float killPoints)
+    public void AddKill()
     {
-        _killPoints += killPoints;
-        _playerUI.SetKillPointUI();
+       
+        _playerUI.SetKillCount();
+        _score += 1f;
     }
 
-    public void UpdateHitpoints(float hitPoints)
+    public void UpdateHealth(float damage)
     {
-        _hitPoints -= hitPoints;
-        hitPoints /= 10f;
-        float currentHealth = PlayerData.Instance._hitPoints -= hitPoints;
-        _healtBar.y = currentHealth;
+        damage /= 2f;
+        _health -= damage;
+        _playerUI.SetHealth(_health);
+       
     }
 }

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_PlayerToon
   m_Shader: {fileID: 4800000, guid: ec754c89222de2343b5d4642d212f7b0, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -82,5 +82,5 @@ Material:
     m_Colors:
     - _Color: {r: 0.6650944, g: 0.87557936, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.09638661, g: 0.2597808, b: 0.3584906, a: 1}
   m_BuildTextureStacks: []
