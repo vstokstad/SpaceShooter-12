@@ -21,7 +21,7 @@ public class Background : MonoBehaviour
     {
         Vector3 playerPosition = _player.transform.position;
         Vector2 currentOffset = _material.GetTextureOffset(_texturePropertyNameIDs[0]);
-        currentOffset.x += playerPosition.x / 10f * Time.fixedDeltaTime;
+        currentOffset.x += Mathf.Sin(0.1f * playerPosition.x)  * Time.fixedDeltaTime;
         currentOffset.y += playerPosition.y / 10f * Time.fixedDeltaTime;
         _material.SetTextureOffset(_texturePropertyNameIDs[0], currentOffset);
            

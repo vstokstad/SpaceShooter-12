@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hitPoints: 1
-  _movementSpeed: 1.5
+  _movementSpeed: 2
   _enemyCollisionDamage: 1
   _explosion: {fileID: 2948557513471352599, guid: ea689202de1ae7b4381bbff5ad05cf50, type: 3}
 --- !u!58 &6981890357072642559

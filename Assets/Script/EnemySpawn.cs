@@ -9,7 +9,7 @@ public class EnemySpawn : MonoBehaviour
     private float _timer = 0f;
     public GameObject _enemyShip;
     private Camera _camera;
-
+    private PlayerData _playerData;
 
     private void Awake()
     {
@@ -22,14 +22,31 @@ public class EnemySpawn : MonoBehaviour
             Debug.Log(e);
             throw;
         }
+
+         _playerData = gameObject.AddComponent<PlayerData>();
     }
 
     private void FixedUpdate()
     {
         _timer -= Time.fixedDeltaTime;
+       
         if (_timer <= 0f)
-        {
+        {  
             SpawnEnemy();
+            if (_playerData._killPoints > 5f)
+            {
+                SpawnEnemy();
+            }
+
+            if (_playerData._hitPoints > 8f)
+            {
+                SpawnEnemy();
+            }
+
+            if (_playerData._killPoints > 10f)
+            {
+                SpawnEnemy();
+            }
         }
     }
 

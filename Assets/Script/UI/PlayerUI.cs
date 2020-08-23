@@ -1,34 +1,29 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.U2D;
-using UnityEngine.UI;
+
 
 
 public class PlayerUI : MonoBehaviour
 {
-
     public GameObject _hitPointBar;
-    public Text _killPointText;
-   // public string _killPointString = "Kill Points: ";
-    
+
+    public GameObject _killPoints;
+   
+
     private void Awake()
     {
-     //   _hitPointBar = 
-        
-      // _killPointText.text = _killPointString;
         
     }
 
-    public void SetKillPointUI(float killpoints)
+    public void SetKillPointUI()
     {
-        _killPointText.text = killpoints.ToString();
-       
+        Vector3 killpointPos = _killPoints.transform.localPosition;
+        killpointPos.x += 1f;
+        killpointPos.y += 0f;
+        killpointPos.z += 0f;
+        Instantiate(_killPoints, killpointPos, Quaternion.identity);
     }
+    
 
-    public void SetHitPointsUI(float hitpoints)
-    {
-        Vector3 scale = _hitPointBar.transform.localScale;
-        scale.z += hitpoints;
-    }
+  
 }
-

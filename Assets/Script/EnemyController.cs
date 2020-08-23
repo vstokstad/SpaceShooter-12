@@ -9,11 +9,12 @@ public class EnemyController : MonoBehaviour
     public float _movementSpeed = 3f;
     public float _enemyCollisionDamage = 1f;
     public ParticleSystem _explosion;
-
+ 
     private void Awake()
     {
         _enemyBody = GetComponent<Rigidbody2D>();
         _explosion = GetComponentInChildren<ParticleSystem>();
+       
     }
 
     private void Start()
@@ -39,7 +40,7 @@ public class EnemyController : MonoBehaviour
         else if (other.CompareTag("EnemyShip"))
         {
             Vector2 enemyBodyVelocity = _enemyBody.velocity;
-            enemyBodyVelocity.x += Random.Range(0.1f, 1f);
+            enemyBodyVelocity.x += Random.Range(0.1f, 2f)*Time.time;
         }
     }
 
