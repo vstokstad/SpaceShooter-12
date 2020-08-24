@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEditor;
 using UnityEngine;
 
 public class PlayerData : MonoBehaviour
@@ -42,6 +41,7 @@ public class PlayerData : MonoBehaviour
         damage /= 2f;
         _health -= damage;
         _playerUI.SetHealth(_health);
+        
        
     }
 }
