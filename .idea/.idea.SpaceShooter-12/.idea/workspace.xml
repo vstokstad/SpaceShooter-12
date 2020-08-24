@@ -23,29 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fb4f5dd-b3ff-4ca4-b350-2a96eb860596" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PreFab/Heart.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFab/Heart.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFab/HitPointBar.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFab/HitPointBar.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFab/Kills.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PreFab/Kills.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PreFab/PlayerUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/PlayerUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PreFab/ToonEnemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFab/ToonEnemy1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Background.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Background.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/AurynSky/Gems Ultimate Pack/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Background.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Background.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +42,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/43/2794c65f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DownloadedAssets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,13 +58,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/Background.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/UI_HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Kills.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/UI_HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" />
       </list>
     </option>
   </component>
@@ -139,6 +126,7 @@
       <workItem from="1598041108992" duration="2443000" />
       <workItem from="1598081087589" duration="6909000" />
       <workItem from="1598167576047" duration="5402000" />
+      <workItem from="1598272318162" duration="453000" />
     </task>
     <task id="LOCAL−00001" summary="Updates to UI and EnemyShip">
       <created>1598046602391</created>

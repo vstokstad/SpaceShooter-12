@@ -769,6 +769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cannonBall: {fileID: 361429777760622939, guid: 70c76062897754c7d9db029cc6d0f2fa, type: 3}
   _fireCoolDown: 0.2
+  _expansionSpeed: 5
+  _expansionMaxIncrease: 0.2
 --- !u!1 &2131635305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,6 +1266,22 @@ PrefabInstance:
     - target: {fileID: 1659610366573708927, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911796344372140515, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911796344372140515, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275074155281251899, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275074155281251899, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d6a5d139c5194bfeac8d720a96967fd, type: 3}

@@ -4,15 +4,13 @@ using UnityEngine;
 public class PlayerData : MonoBehaviour
 {
     [NonSerialized] public float _health = 2f;
-   // [NonSerialized] public float _damageModifier = 1f;
-   // [NonSerialized] public Weapon _currentWeapon;
+  
     [NonSerialized] public float _score = 0f;
 
     public PlayerUI _playerUI;
-   
 
 
-    public static PlayerData Instance { get; private set; }
+    internal static PlayerData Instance { get; private set; }
 
     private void Awake()
     {
