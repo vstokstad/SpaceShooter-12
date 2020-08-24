@@ -36,9 +36,8 @@ public class PlayerData : MonoBehaviour
 
     public void UpdateHealth(float damage)
     {
-        damage /= 2f;
-        _health -= damage;
-        _playerUI.SetHealth(_health);
+       
+        _playerUI.SetHealth(damage);
         
        
     }

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerUI : MonoBehaviour
 {
-    public GameObject _healthBar;
+    public GameObject _heart;
+    public GameObject _heart1;
+    public GameObject _heart2;
     public GameObject _killCounter;
   
     private Vector3 _killCountPos;
@@ -12,7 +14,10 @@ public class PlayerUI : MonoBehaviour
 
     private void Awake()
     {
-        SetHealth(PlayerData.Instance._health);
+
+        _heart = GetComponentInChildren<GameObject>();
+        _heart1 = GetComponentInChildren<GameObject>();
+        _heart2 = GetComponentInChildren<GameObject>();
     }
 
     public void SetKillCount()
@@ -24,12 +29,31 @@ public class PlayerUI : MonoBehaviour
         Instantiate(_killCounter, killpointPos, Quaternion.identity);
         _killCounter.transform.SetPositionAndRotation(killpointPos, Quaternion.identity);
     }
-    
-    
+
+
     public void SetHealth(float currentHealth)
     {
-        Vector3 health = _healthBar.transform.localScale;
-        health.y -= currentHealth;
-        _healthBar.transform.localScale = health;
+        if (currentHealth >= 3f)
+        {
+            _heart.SetActive(true); _heart1.SetActive(true); _heart2.SetActive(true);
+        }
+
+        if (currentHealth == 2f)
+        {
+            _heart2.SetActive(false);
+        }
+
+        if (currentHealth == 1f)
+        {
+            _heart1.SetActive(false);
+            _heart2.SetActive(false);
+        }
+
+        if (currentHealth <= 0f)
+        {
+            _heart.SetActive(false);
+            _heart1.SetActive(false);
+            _heart2.SetActive(false);
+        }
     }
 }

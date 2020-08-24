@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fb4f5dd-b3ff-4ca4-b350-2a96eb860596" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/AurynSky/Gems Ultimate Pack/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Background.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Background.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter-12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" afterDir="false" />
     </list>
@@ -41,9 +38,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/43/2794c65f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DownloadedAssets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/43/2794c65f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DownloadedAssets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/vilhelmstokstad/Documents/GitHub/SpaceShooter-12/Assets/Script/UI/PlayerUI.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,13 +67,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/Background.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/UI_HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Kills.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/UI_HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/PlayerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerCollision.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +135,7 @@
       <workItem from="1598041108992" duration="2443000" />
       <workItem from="1598081087589" duration="6909000" />
       <workItem from="1598167576047" duration="5402000" />
-      <workItem from="1598272318162" duration="453000" />
+      <workItem from="1598272318162" duration="1815000" />
     </task>
     <task id="LOCAL−00001" summary="Updates to UI and EnemyShip">
       <created>1598046602391</created>
@@ -142,6 +151,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -165,6 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="443" height="464" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597999447415" />
+    <state x="100" y="123" width="1160" height="1217" key="DiffContextDialog" timestamp="1598274136481">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="1160" height="1217" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1598274136481" />
     <state width="1750" height="401" key="GridCell.Tab.0.bottom" timestamp="1598046774917">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

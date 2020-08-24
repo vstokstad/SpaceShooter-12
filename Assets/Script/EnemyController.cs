@@ -62,7 +62,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void Explode()
+    public virtual void Explode()
     {
         GetComponentInChildren<Renderer>().enabled = false;
         _explosion.Play();

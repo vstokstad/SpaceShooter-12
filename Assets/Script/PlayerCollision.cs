@@ -12,12 +12,9 @@ public class PlayerCollision : MonoBehaviour
         if (other.gameObject.CompareTag("EnemyShip"))
         {
             PlayerData.Instance.UpdateHealth(1f);
-            other.gameObject.GetComponent<EnemyController>()._explosion.Play(true);
-            Destroy(other.gameObject);
-            /* if (PlayerData.Instance._health <= 0)
-             {
-               //game over
-             }*/
+            other.gameObject.GetComponent<EnemyController>().Explode();
+            
+           
         }
     }
 }
